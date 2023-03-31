@@ -4,6 +4,7 @@ import {motion} from "framer-motion";
 import FrontEndIcons from "../components/skillsIcons/FrontEndIcons";
 import BackEndIcons from "../components/skillsIcons/BackEndIcons";
 import DataBaseIcons from "../components/skillsIcons/DataBaseIcons";
+import SkillImg from "../../src/assets/skills-image.png"
 
 const MySkills = () => {
     const isAboveLarge = useMediaQuery("(min-width: 1060px)");
@@ -40,11 +41,11 @@ const MySkills = () => {
                             <img
                                 alt="skills"
                                 className="z-10"
-                                src="assets/skills-image.png"
+                                src={SkillImg}
                             />
                         </div>
                     ) : (
-                        <img alt="skills" className="z-10" src="assets/skills-image.png"/>
+                        <img alt="skills" className="z-10" src={SkillImg}/>
                     )}
                 </div>
             </div>
