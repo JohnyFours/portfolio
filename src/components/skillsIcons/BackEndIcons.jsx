@@ -2,6 +2,7 @@ import NodeJs from '../../assets/nodejs.png'
 import express from '../../assets/express.png'
 import jwt from '../../assets/jwt.png'
 import insomnia from '../../assets/insomnia.png'
+import java from '../../assets/java.png'
 
 const BackEndIcons = () => {
     return(
@@ -21,6 +22,10 @@ const BackEndIcons = () => {
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-10 mx-auto' src={insomnia} alt="HTML icon" />
                 <p className='my-4'>Insomnia</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-10 mx-auto' src={java} alt="HTML icon" />
+                <p className='my-4'>Java</p>
             </div>
         </div>
     )

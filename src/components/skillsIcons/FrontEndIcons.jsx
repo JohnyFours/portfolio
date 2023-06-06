@@ -2,10 +2,8 @@ import HTML from '../../assets/html.png';
 import CSS from '../../assets/css.png';
 import JavaScript from '../../assets/javascript.png';
 import ReactImg from '../../assets/react.png';
-import Bootstrap from '../../assets/bootstrap.png';
-import Tailwind from '../../assets/tailwind.png';
 import TypeScript from '../../assets/typescript.png'
-import JQuery from '../../assets/jquery.png'
+
 
 
 const FrontEndIcons = () => {
@@ -29,20 +27,8 @@ const FrontEndIcons = () => {
                 <p className='my-4'>React</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-10 mx-auto' src={Tailwind} alt="HTML icon" />
-                <p className='my-4'>Tailwind</p>
-            </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-10 mx-auto' src={Bootstrap} alt="HTML icon" />
-                <p className='my-4'>Bootstrap</p>
-            </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-10 mx-auto' src={TypeScript} alt="HTML icon" />
                 <p className='my-4'>TypeScript</p>
-            </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-10 mx-auto' src={JQuery} alt="HTML icon" />
-                <p className='my-4'>JQuery</p>
             </div>
         </div>
     );
