@@ -8,14 +8,14 @@ const Landing = ({setSelectedPage}) => {
     const isAboveLarge = useMediaQuery("(min-width: 1060px)");
 
     const handleDownload = () => {
-        fetch('Oleksandr_Protasov_CV.pdf').then(response => {
+        fetch('Protasov_CV.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'Oleksandr_Protasov_CV.pdf';
+                alink.download = 'Protasov_CV.pdf';
                 alink.click();
             })
         })
