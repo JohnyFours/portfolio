@@ -83,17 +83,17 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
           <Project title="Project 1"
-                   href="https://johnyfours.github.io/Todo_list_application/"
+                   href="https://oleksandrprotasov.github.io/Todo_list_application/"
                    src={project1Img}
                    description ="Todo list Application"/>
           <Project title="Project 2"
                    src={project2Img}
-                   href="https://johnyfours.github.io/React_Weather_app/"
+                   href="https://oleksandrprotasov.github.io/React_Weather_app/"
                    description="React Weather App"/>
 
           <Project title="Project 3"
                    src={project3Img}
-                   href="https://johnyfours.github.io/quizlet_React/"
+                   href="https://oleksandrprotasov.github.io/quizlet_React/"
                    description="Quizlet Game React"/>
           <Project title="Project 4" description="Coming Soon" src={project4Img}/>
           <div
