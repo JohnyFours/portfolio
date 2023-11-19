@@ -16,14 +16,6 @@ const BackEndIcons = () => {
                 <p className='my-4'>Express</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-10 mx-auto' src={jwt} alt="HTML icon" alt="HTML icon"/>
-                <p className='my-4'>JWT Token</p>
-            </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-10 mx-auto' src={insomnia} alt="HTML icon" />
-                <p className='my-4'>Insomnia</p>
-            </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-10 mx-auto' src={java} alt="HTML icon" />
                 <p className='my-4'>Java</p>
             </div>

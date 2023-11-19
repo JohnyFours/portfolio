@@ -14,7 +14,7 @@ const SocialMediaIcons = () => {
             </a>
             <a
                 className="hover:opacity-50 transition duration-500"
-                href="https://github.com/JohnyFours"
+                href="https://github.com/OleksandrProtasov"
                 target="_blank"
                 rel="noreferrer"
             >
